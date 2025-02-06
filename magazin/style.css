@@ -1,0 +1,515 @@
+.umumiy{
+    background: #EBEBEB;
+    width: 1512px;
+}
+.header{
+    width: 1512px;
+    height: 100px;
+    background: yellow;
+}
+.header2{
+    width: 1300px;
+    height: 40px;
+    margin-left: 100px;
+    display: flex;
+}
+.tugma{
+    width: 598px;
+    height: 39px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/* Umumiy nav menyusi */
+nav#nav-header-menu {
+    width: 800px;
+    height: 30px;
+    padding: 10px 0;
+}
+nav#nav-header-menu ul {
+    list-style: none;
+    display: flex;
+}  
+nav#nav-header-menu li {
+    margin: 0 15px;
+}  
+nav#nav-header-menu a {
+    color: #33333399;
+    font-size: 13px;
+   text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}  
+  /* Hover va active effektlar */
+nav#nav-header-menu a:hover {
+    background-color: #555;
+    color: yellow;
+}  
+nav#nav-header-menu a:active {
+    background-color: #777;
+}  
+ /* Savatcha tugmasi uchun o'ziga xos stil */
+a#nav-cart {
+    color: #33333399;
+     font-size: 13px;
+}  
+a#nav-cart:hover {
+    background-color: #ff4500;
+    color: white;
+}
+.rasm{
+    width: 134px;
+    height: 34px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.soz{
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.rasm1{
+    width: 30px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.body{
+    width: 1512px;
+    height: 340px;
+}
+.body2{
+   width: 1184px;
+   height: 90px;
+   margin: 50px 180px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(0, 0, 0, 0.2);
+   display: flex;
+   flex-wrap: wrap;
+}
+.hasta{
+    width: 280px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hasta2{
+    width: 280px;
+    height: 90px;
+    border-left: 1px solid#EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rasm2{
+    width: 48px;
+    height: 48px;
+    margin: 20px 0px  0px 0px;
+}
+.soz2{
+    display: inline; /* elementlarni inline qilib qo‘yish */
+
+}
+.soz22{
+    font-size: 13px;
+    color: #3483FA;
+    display: inline; /* elementlarni inline qilib qo‘yish */
+}
+.sozlar{
+    width: 200px;
+    height: 50px;
+    margin: 20px 10px 50px;
+}
+.body3{
+    width: 1200px;
+    height: 500px;
+    margin: 0px 180px;
+    background: #EBEBEB;
+}
+.todas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ofertas{
+    font-size: 25px;
+    color: #666666;
+}
+.ver{
+    font-size: 15px;
+    color: #3483FA;
+    margin: 30px 0px 0px 15px;
+}
+.todas2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1200px;
+}  
+.stul{
+    width: 224px;
+    height: 350px;
+    box-shadow: 0px 1px 1px 0px #0000001A;
+    background: #FFFFFF;
+}
+.rasm3{
+    width: 224px;
+    height: 224px;
+    border-bottom: 1px solid #3333331A
+}
+.soz3{
+    font-size: 23px;
+    color: #333333;
+}
+.todas3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 198px;
+    height: 47px;
+    margin-left: 20px;
+    
+}
+.soz33{
+    font-size: 13px;
+    color: #00A650;
+    margin-left: 20px;
+}
+.soz303{
+    font-size: 13px;
+    color: #00A650;
+    margin: 30px 0px 0px 20px;
+}
+.rasm33{
+    width: 40px;
+    height: 22px;
+    margin: 10px 0px 0px 5px;
+}
+.rasm303{
+    width: 40px;
+    height: 22px;
+    margin: 10px 0px 0px 20px;
+}
+.body4{
+   width: 1180px;
+   height: 340px;
+   margin: 0px 180px;
+   background-color: white;
+}
+.nivel{
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    width: 1180px;
+    height: 87px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px 8px 0px 0px;
+}
+.soz4{
+    font-size: 25px;
+    color: white;
+  padding-left: 30px;
+}
+.mes{
+    width: 150px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 750px;
+    border-left: 2px solid white;
+}
+.soz404{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: white;
+    margin-left: 30px;
+}
+.soz4{
+   font-size: 24px ;
+   color: white; 
+}
+.soz44{
+    font-size: 17px;
+    color: black;
+    margin: 30px 0px 0px 30px;
+}
+.disney{
+    width: 1132px;
+    height: 74px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.rasm4{
+    margin-left: 30px;
+}
+.rasm44{
+    margin-left: 120px;
+}
+.rasm444{
+    margin-left: 180px;
+}
+.sin{
+   padding-top: 30px;
+}
+.sin1{
+    padding-top: 20px;
+ }
+ .Suscríbete{
+    width: 123px;
+    height: 48px;
+    background: #3483FA;
+   border-radius: 6px;
+    margin-left: 1000px;
+    margin-top: 10px;
+    border: none;
+ }
+.tugma4{
+    width: 1180px;
+    margin-top: 50px;
+    height: 5px;
+    border-top: 1px solid #EDEDED  
+}
+.body5{
+    width: 1200px;
+    height: 380px;
+    margin: 50px 180px;
+}
+.soz5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.rasm5{
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.kichik{
+    width: 384px;
+    height: 250px;
+    background-image: url(./images/fa48fbbc5f537bc5624bf0ba59252232.jpeg);
+    background-size: 384px 250px;
+}
+.kichikk{
+    width: 384px;
+    height: 250px;
+    background-image: url(./images/5b83912d7da8b63b0282d60f8ca3ea6e.png);
+    background-size: 384px 250px;
+}
+.kichikkk{
+    width: 384px;
+    height: 250px;
+    background-image: url(./images/d49d4f368472b1ea6b8c48f3c14df567.jpeg);
+    background-size: 384px 250px;
+}
+.kichik2{
+    width: 354px;
+    height: 100px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 150px;
+}
+.sin2{
+    font-size: 22px;
+    color: white;
+}
+.rasm55{
+    width: 80px;
+    height: 80px;
+}
+.body6{
+    width: 1200px;
+    height: 398px;
+    margin: 0px 180px;
+}
+.Descubre{
+    width: 1200px;
+    height: 398px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.hogar{
+    box-shadow: 0px 1px 1px 0px #0000001A;
+    background: #FFFFFF;
+  width: 570px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px ;
+}
+.renue{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.hogar2{
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+}
+.rasm6{
+    width: 280px;
+    height: 250px;
+}
+.rasm66{
+    width: 280px;
+    height: 250px;
+    margin-left: 82px;
+}
+.tugma6{
+    width: 96px;
+    height: 36px;
+    border-radius: 2px;
+    background: #3483FA;
+    border: none;
+    margin-left: 20px;
+}
+.body7{
+    width: 1518px;
+    height: 505px;
+}
+.soz7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 180px;
+}
+.logolar{
+    width: 1200px;
+    height: 356px;
+    margin-left: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logolar2{
+    width: 284px;
+    height: 340px;
+    box-shadow: 0px -1px 2px 0px #0000001A;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px 0px #0000001A;
+}
+.rasm7{
+    width: 284px;
+    height: 95px;
+    position: absolute;
+}
+.rasm77{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin: 50px 0px 0px 100px;
+}
+.Lego{
+    font-size: 24px;
+    margin-left: 100px;
+}
+.ver2{
+    font-size: 15px;
+    color: #999999;
+     margin-left: 100px;
+}
+.body8{
+  width: 1200px;
+  height: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 180px;
+}
+.super{
+    color: #666666;
+  font-size: 26px;
+  margin-left: 20px;
+}
+.rasm8{
+    width: 14px;
+    height: 24px;
+    margin-top: 30px;
+}
+.text8{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.soz8{
+    width: 383px;
+    height: 384px;
+    box-shadow: 0px 1px 1px 0px #0000001A;
+    background: #FFFFFF;
+}
+.soz88{
+    box-shadow: 0px 1px 1px 0px #0000001A;
+    background: #FFFFFF;
+    width: 184px;
+    height: 184px;
+}
+.text88{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.text808{
+    width: 800px;
+    height: 184px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.body9{
+    width: 1200px;
+    height: 473px;
+    margin: 20px 180px;
+}
+.text9{
+    width: 1190px;
+    height: 340px;
+    background: #FFFFFF01;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 1px 0px #0000001A;
+}
+.motos{
+    width: 170px;
+    height: 170px;
+    border: 1px solid gray; 
+}
+.Carros{
+    font-size: 14px;
+   padding-left: 20px;
+}
+.Carros2{
+    font-size: 14px;
+   padding-left: 30px;
+}
+.Carros3{
+    font-size: 14px;
+   padding-left: 40px;
+}
+.rasm9{
+   margin: 30px 0px 0px 50px;
+}
+.text99{
+    width: 170px;
+    height: 340px;
+}
+.body10{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1512px;
+    height: 300px;
+    background: #FFFFFF;
+}
+.text10{
+    width: 350px;
+    height: 230px;
+    text-align: center;
+    margin: 20px 0px 0px 100px;
+}
+.paga{
+    font-size: 19px;
+    color: #4B4B4B;
+}
+.con{
+    color: #999999;
+   font-size: 15px;
+}
